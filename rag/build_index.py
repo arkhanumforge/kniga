@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = Path(__file__).resolve().parent / "index.json"
 
+# Без Книга.md (дубль глав, жрёт индекс) и без План лора (рабочий чат, не канон сцены).
 INCLUDE_NAMES = {
     "Мир.md",
     "Персонажи.md",
@@ -18,8 +19,6 @@ INCLUDE_NAMES = {
     "Стиль.md",
     "Сейчас.md",
     "GENERAL.md",
-    "План лора.md",
-    "Книга.md",
 }
 
 INCLUDE_PREFIXES = (
@@ -28,12 +27,16 @@ INCLUDE_PREFIXES = (
     "Хвост главы ",
 )
 
+SKIP_DIRS = {"архив", ".git", "rag", ".cursor"}
+
 
 def tokenize(text: str) -> list[str]:
     return re.findall(r"[0-9A-Za-zА-Яа-яЁё]+", text.lower())
 
 
 def should_index(path: Path) -> bool:
+    if any(part in SKIP_DIRS for part in path.parts):
+        return False
     name = path.name
     if name in INCLUDE_NAMES:
         return True
@@ -47,7 +50,6 @@ def chunk_markdown(text: str, source: str) -> list[dict]:
         part = part.strip()
         if len(part) < 40:
             continue
-        # режем длинные куски по абзацам
         if len(part) > 1800:
             paras = [p.strip() for p in re.split(r"\n\s*\n", part) if p.strip()]
             buf = ""
