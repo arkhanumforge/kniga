@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "generator_version": "navigation-1",
+  "scope": "author-navigation-only",
+  "mandatory_knowledge": [
+    "knowledge-liz",
+    "knowledge-pascal",
+    "knowledge-rainor",
+    "knowledge-reader"
+  ],
+  "sources": [
+    {
+      "id": "chapter-1",
+      "path": "Глава 1.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-2",
+      "path": "Глава 2.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-3",
+      "path": "Глава 3.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-4",
+      "path": "Глава 4.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-5",
+      "path": "Глава 5.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-6",
+      "path": "Глава 6.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-7",
+      "path": "Глава 7.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "chapter-8",
+      "path": "Глава 8.md",
+      "kind": "event",
+      "scope": "mainline-source"
+    },
+    {
+      "id": "style",
+      "path": "Стиль.md",
+      "kind": "rule",
+      "scope": "mandatory-core"
+    },
+    {
+      "id": "style-examples",
+      "path": "Стиль — примеры и разборы.md",
+      "kind": "example",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "characters",
+      "path": "Персонажи.md",
+      "kind": "character",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "dialogue",
+      "path": "Химия и динамика диалогов.md",
+      "kind": "relation",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "relations",
+      "path": "Развитие отношений Лизы и Паскаля.md",
+      "kind": "relation",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "world",
+      "path": "Мир.md",
+      "kind": "world",
+      "scope": "author"
+    },
+    {
+      "id": "lore-plan",
+      "path": "План лора.md",
+      "kind": "plan",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "knowledge-liz",
+      "path": "Знания Лизы.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "liz"
+    },
+    {
+      "id": "knowledge-pascal",
+      "path": "Знания Паскаля.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "pascal"
+    },
+    {
+      "id": "knowledge-rainor",
+      "path": "Знания Райнора.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "rainor"
+    },
+    {
+      "id": "knowledge-reader",
+      "path": "Знания читателя.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "reader"
+    },
+    {
+      "id": "events",
+      "path": "События по главам.md",
+      "kind": "event",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "chronology",
+      "path": "Хронология.md",
+      "kind": "event",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "state",
+      "path": "Сейчас.md",
+      "kind": "state",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "arcs",
+      "path": "Арки (задумано).md",
+      "kind": "plan",
+      "scope": "planning"
+    },
+    {
+      "id": "debts",
+      "path": "Шпаргалка долгов.md",
+      "kind": "plan",
+      "scope": "mixed-author"
+    },
+    {
+      "id": "plan-8",
+      "path": "План главы 8.md",
+      "kind": "plan",
+      "scope": "planning"
+    },
+    {
+      "id": "plan-9",
+      "path": "План главы 9.md",
+      "kind": "plan",
+      "scope": "planning"
+    },
+    {
+      "id": "plan-10",
+      "path": "План главы 10.md",
+      "kind": "plan",
+      "scope": "planning"
+    },
+    {
+      "id": "agents",
+      "path": "AGENTS.md",
+      "kind": "process",
+      "scope": "mandatory-core"
+    },
+    {
+      "id": "general",
+      "path": "GENERAL.md",
+      "kind": "process",
+      "scope": "mandatory-core"
+    },
+    {
+      "id": "rule-00-read-before-every-scene",
+      "path": ".cursor/rules/00-read-before-every-scene.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "rule-01-edit-chapter-then-sync",
+      "path": ".cursor/rules/01-edit-chapter-then-sync.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "rule-02-chapter-plan-structure",
+      "path": ".cursor/rules/02-chapter-plan-structure.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "rule-03-writer-vs-routine",
+      "path": ".cursor/rules/03-writer-vs-routine.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "rule-04-never-lie-to-lore",
+      "path": ".cursor/rules/04-never-lie-to-lore.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "rule-05-talk-like-a-human",
+      "path": ".cursor/rules/05-talk-like-a-human.mdc",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-brainstorm",
+      "path": ".cursor/skills/brainstorm/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-close-scene",
+      "path": ".cursor/skills/close-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-plan-chapter",
+      "path": ".cursor/skills/plan-chapter/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-ready-scene",
+      "path": ".cursor/skills/ready-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-write-scene",
+      "path": ".cursor/skills/write-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "Глава 8.1.md",
+      "reason": "alternative"
+    },
+    {
+      "path": "Глава 8.3.md",
+      "reason": "alternative"
+    },
+    {
+      "path": "Черновик главы 9.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Черновик главы 9.2.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Черновик главы 9.3.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Архитектура RAG.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Журнал ревизии.md",
+      "reason": "revision"
+    },
+    {
+      "path": "План ревизии.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Спорные вопросы.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Карта аудита знаний и детективной линии.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита мира и лора.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита персонажей.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита событий, состояний и планов.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита стиля.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта междокументной сверки.md",
+      "reason": "audit"
+    }
+  ]
+}

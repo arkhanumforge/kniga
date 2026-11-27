@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "generator_version": "navigation-1",
+  "scope": "author-navigation-only",
+  "source_branch": "docs-revision",
+  "source_commit": "cee1db1d1562e4b282370d93cbf52091d28c58a3",
+  "selection_ready": false,
+  "mandatory_knowledge": [
+    "knowledge-liz",
+    "knowledge-pascal",
+    "knowledge-rainor",
+    "knowledge-reader"
+  ],
+  "sources": [
+    {
+      "id": "chapter-1",
+      "path": "Глава 1.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "95aac907dc177663f713bef75943685da99f1632",
+      "bytes": 63982,
+      "pointer": null
+    },
+    {
+      "id": "chapter-2",
+      "path": "Глава 2.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "09ca2f58c67351626a882f667dc39ef35bccc227",
+      "bytes": 52969,
+      "pointer": null
+    },
+    {
+      "id": "chapter-3",
+      "path": "Глава 3.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "03d666fbf9ae087045e924eeb8a92a168a0ec420",
+      "bytes": 117846,
+      "pointer": null
+    },
+    {
+      "id": "chapter-4",
+      "path": "Глава 4.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "60891df10c5b02523922a23ec8d0047fbde5a894",
+      "bytes": 55243,
+      "pointer": null
+    },
+    {
+      "id": "chapter-5",
+      "path": "Глава 5.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "69c41892a920b88a07784a035c1e41c664bf6cd1",
+      "bytes": 76986,
+      "pointer": null
+    },
+    {
+      "id": "chapter-6",
+      "path": "Глава 6.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "025ac1275aa00995356f8a0efbdb59d11f82414b",
+      "bytes": 72854,
+      "pointer": null
+    },
+    {
+      "id": "chapter-7",
+      "path": "Глава 7.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "b46618f183c0902691b39a48b140ab326298e8fb",
+      "bytes": 84429,
+      "pointer": null
+    },
+    {
+      "id": "chapter-8",
+      "path": "Глава 8.md",
+      "kind": "event",
+      "scope": "mainline-source",
+      "blob_sha": "768e42e5a418341480a18f1e370e5a5e7391d49a",
+      "bytes": 94141,
+      "pointer": null
+    },
+    {
+      "id": "style",
+      "path": "Стиль.md",
+      "kind": "rule",
+      "scope": "mandatory-core",
+      "blob_sha": "baac4db012724441cf44409382dab860a8eb9e36",
+      "bytes": 40189,
+      "pointer": null
+    },
+    {
+      "id": "style-examples",
+      "path": "Стиль — примеры и разборы.md",
+      "kind": "example",
+      "scope": "mixed-author",
+      "blob_sha": "902e85fa19a2ce5cab77d3f4f9bc93314abb309e",
+      "bytes": 160190,
+      "pointer": null
+    },
+    {
+      "id": "characters",
+      "path": "Персонажи.md",
+      "kind": "character",
+      "scope": "mixed-author",
+      "blob_sha": "0188484c56cee3da2b467195f38603b4b55d5ca9",
+      "bytes": 112602,
+      "pointer": null
+    },
+    {
+      "id": "dialogue",
+      "path": "Химия и динамика диалогов.md",
+      "kind": "relation",
+      "scope": "mixed-author",
+      "blob_sha": "3f4bd4d16fdca8c41f1a334e2fcd539bab547a13",
+      "bytes": 26022,
+      "pointer": null
+    },
+    {
+      "id": "relations",
+      "path": "Развитие отношений Лизы и Паскаля.md",
+      "kind": "relation",
+      "scope": "mixed-author",
+      "blob_sha": "66799e5e6097556628f10627dcf97387f4681d9c",
+      "bytes": 29760,
+      "pointer": null
+    },
+    {
+      "id": "world",
+      "path": "Мир.md",
+      "kind": "world",
+      "scope": "author",
+      "blob_sha": "b26a6781da21b98d6b9a866c8dc9b2ea415ed043",
+      "bytes": 79085,
+      "pointer": null
+    },
+    {
+      "id": "lore-plan",
+      "path": "План лора.md",
+      "kind": "plan",
+      "scope": "mixed-author",
+      "blob_sha": "62c48e42e9b99c1cbc2b6d598d448802000c3fe4",
+      "bytes": 61375,
+      "pointer": null
+    },
+    {
+      "id": "knowledge-liz",
+      "path": "Знания Лизы.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "liz",
+      "blob_sha": "d4c64d50e3462086b7a85c060f27d1a4c4ec1b8e",
+      "bytes": 52107,
+      "pointer": "knowledge-liz.json",
+      "lines": 204,
+      "sections": 14
+    },
+    {
+      "id": "knowledge-pascal",
+      "path": "Знания Паскаля.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "pascal",
+      "blob_sha": "10adb6dbeab2b60df8e4fb9bf983c127ce3085cd",
+      "bytes": 40553,
+      "pointer": "knowledge-pascal.json",
+      "lines": 156,
+      "sections": 12
+    },
+    {
+      "id": "knowledge-rainor",
+      "path": "Знания Райнора.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "rainor",
+      "blob_sha": "10542e47eb1cbd1f6440c483d3bae14bc02e8cd5",
+      "bytes": 39055,
+      "pointer": "knowledge-rainor.json",
+      "lines": 155,
+      "sections": 12
+    },
+    {
+      "id": "knowledge-reader",
+      "path": "Знания читателя.md",
+      "kind": "knowledge",
+      "scope": "mixed-author",
+      "holder": "reader",
+      "blob_sha": "03ded5069d3df52d0bb25194e4ccc8854d661d20",
+      "bytes": 59259,
+      "pointer": "knowledge-reader.json",
+      "lines": 179,
+      "sections": 15
+    },
+    {
+      "id": "events",
+      "path": "События по главам.md",
+      "kind": "event",
+      "scope": "mixed-author",
+      "blob_sha": "3a8b14d930a9a1a7df0b14a92102d9464c13a4e2",
+      "bytes": 29170,
+      "pointer": null
+    },
+    {
+      "id": "chronology",
+      "path": "Хронология.md",
+      "kind": "event",
+      "scope": "mixed-author",
+      "blob_sha": "76c3395a7205734e4cea28f7fc02b56c440abd04",
+      "bytes": 25611,
+      "pointer": null
+    },
+    {
+      "id": "state",
+      "path": "Сейчас.md",
+      "kind": "state",
+      "scope": "mixed-author",
+      "blob_sha": "d1ad726c5eb0982651d0f5c198d70054dc0e476b",
+      "bytes": 8008,
+      "pointer": null
+    },
+    {
+      "id": "arcs",
+      "path": "Арки (задумано).md",
+      "kind": "plan",
+      "scope": "planning",
+      "blob_sha": "56b5c40b28d27bb134693d73ef268c99757c3ed4",
+      "bytes": 47768,
+      "pointer": null
+    },
+    {
+      "id": "debts",
+      "path": "Шпаргалка долгов.md",
+      "kind": "plan",
+      "scope": "mixed-author",
+      "blob_sha": "5fef6eef769865395c6e33e7b4c21e45bb414c2c",
+      "bytes": 27776,
+      "pointer": null
+    },
+    {
+      "id": "plan-8",
+      "path": "План главы 8.md",
+      "kind": "plan",
+      "scope": "planning",
+      "blob_sha": "ce1986894b4304a1c74e99d0ce04d8284b88c1c0",
+      "bytes": 19602,
+      "pointer": null
+    },
+    {
+      "id": "plan-9",
+      "path": "План главы 9.md",
+      "kind": "plan",
+      "scope": "planning",
+      "blob_sha": "356f36c692ac147d8ce49c17b437c50efed0d866",
+      "bytes": 32775,
+      "pointer": null
+    },
+    {
+      "id": "plan-10",
+      "path": "План главы 10.md",
+      "kind": "plan",
+      "scope": "planning",
+      "blob_sha": "16bf68a04e26c249febe21f3b467616d0844137a",
+      "bytes": 21609,
+      "pointer": null
+    },
+    {
+      "id": "agents",
+      "path": "AGENTS.md",
+      "kind": "process",
+      "scope": "mandatory-core",
+      "blob_sha": "8bc321188338e1b2c5346dd70f017b0e3d32b059",
+      "bytes": 8546,
+      "pointer": null
+    },
+    {
+      "id": "general",
+      "path": "GENERAL.md",
+      "kind": "process",
+      "scope": "mandatory-core",
+      "blob_sha": "5e07fe50be168ef964d2a72e2089f18e31eb94ac",
+      "bytes": 29005,
+      "pointer": null
+    },
+    {
+      "id": "rule-00-read-before-every-scene",
+      "path": ".cursor/rules/00-read-before-every-scene.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "439c6d51e34d58711813695d3e4475752467830b",
+      "bytes": 17048,
+      "pointer": null
+    },
+    {
+      "id": "rule-01-edit-chapter-then-sync",
+      "path": ".cursor/rules/01-edit-chapter-then-sync.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "1690e32448bc7978f9e647248c06727792c9ea17",
+      "bytes": 2934,
+      "pointer": null
+    },
+    {
+      "id": "rule-02-chapter-plan-structure",
+      "path": ".cursor/rules/02-chapter-plan-structure.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "808d8febef668b54ddf443a9ec24dc2b2bfd8ae3",
+      "bytes": 6719,
+      "pointer": null
+    },
+    {
+      "id": "rule-03-writer-vs-routine",
+      "path": ".cursor/rules/03-writer-vs-routine.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "9920db6b0bd83418ee8cc056e5f5f117aa8de809",
+      "bytes": 2157,
+      "pointer": null
+    },
+    {
+      "id": "rule-04-never-lie-to-lore",
+      "path": ".cursor/rules/04-never-lie-to-lore.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "b42350ef62eb1788b6143f7746ca24160ff30106",
+      "bytes": 5727,
+      "pointer": null
+    },
+    {
+      "id": "rule-05-talk-like-a-human",
+      "path": ".cursor/rules/05-talk-like-a-human.mdc",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "30de57a71bbfd9351ecc9a6fe2520eabb435c94c",
+      "bytes": 1370,
+      "pointer": null
+    },
+    {
+      "id": "skill-brainstorm",
+      "path": ".cursor/skills/brainstorm/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "b913dcceb2a2085261fbcada5c52a95d5d500983",
+      "bytes": 4033,
+      "pointer": null
+    },
+    {
+      "id": "skill-close-scene",
+      "path": ".cursor/skills/close-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "a1e3cd24594700855b498035b7de873d17b203ae",
+      "bytes": 2233,
+      "pointer": null
+    },
+    {
+      "id": "skill-plan-chapter",
+      "path": ".cursor/skills/plan-chapter/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "42a32663877a6a4162e0e4d13fecb7cd8c84f4bc",
+      "bytes": 3218,
+      "pointer": null
+    },
+    {
+      "id": "skill-ready-scene",
+      "path": ".cursor/skills/ready-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "869fa6ee54d511de292091b9f89084d3f2a76d6d",
+      "bytes": 3300,
+      "pointer": null
+    },
+    {
+      "id": "skill-write-scene",
+      "path": ".cursor/skills/write-scene/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "262a4259431e854488be3ac7c48c7d12e03016f2",
+      "bytes": 5838,
+      "pointer": null
+    }
+  ],
+  "excluded": [
+    {
+      "path": "Глава 8.1.md",
+      "reason": "alternative"
+    },
+    {
+      "path": "Глава 8.3.md",
+      "reason": "alternative"
+    },
+    {
+      "path": "Черновик главы 9.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Черновик главы 9.2.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Черновик главы 9.3.md",
+      "reason": "draft"
+    },
+    {
+      "path": "Архитектура RAG.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Журнал ревизии.md",
+      "reason": "revision"
+    },
+    {
+      "path": "План ревизии.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Спорные вопросы.md",
+      "reason": "revision"
+    },
+    {
+      "path": "Карта аудита знаний и детективной линии.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита мира и лора.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита персонажей.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита событий, состояний и планов.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта аудита стиля.md",
+      "reason": "audit"
+    },
+    {
+      "path": "Карта междокументной сверки.md",
+      "reason": "audit"
+    }
+  ]
+}
