@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "e36fb51cc2e4cdae65818574fce5b67ed84de6a2",
+  "source_commit": "e53993d68785f2a84749d4cab942273a3b52b402",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -89,8 +89,8 @@
       "path": "Стиль.md",
       "kind": "rule",
       "scope": "mandatory-core",
-      "blob_sha": "f417d597729a9df34caf011a5d0ae5e18eabdb57",
-      "bytes": 44290,
+      "blob_sha": "8162f70e56aa82a610db99bc6b340cddd23b0fde",
+      "bytes": 42377,
       "pointer": "style.json"
     },
     {
@@ -116,8 +116,8 @@
       "path": "Химия и динамика диалогов.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "58697d82c87260368d22cb5370ec5d82d579d14e",
-      "bytes": 28450,
+      "blob_sha": "eb04a9c02e9ff9964c826b72d12147b7d95dcf0c",
+      "bytes": 26678,
       "pointer": "dialogue.json"
     },
     {
