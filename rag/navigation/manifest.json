@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "d317ee6568e208b9d397f74326aa24c96f3b5cae",
+  "source_commit": "7d2f91d3f6d6a96cfc7db6292e595e4dc3d9a808",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -264,8 +264,8 @@
       "path": "AGENTS.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "9feeff240f87ff7da60bf49f5dd94967621df8be",
-      "bytes": 4261,
+      "blob_sha": "a9488cae841fea8ef7bea253fefbbc23e74a1e6b",
+      "bytes": 4708,
       "pointer": "agents.json"
     },
     {
@@ -402,6 +402,33 @@
       "blob_sha": "ad81e84e3410e6602cca436de383c51341ef66ee",
       "bytes": 4743,
       "pointer": "skill-3-redaktor.json"
+    },
+    {
+      "id": "command-1-podgotovka",
+      "path": ".cursor/commands/1-podgotovka.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "db43f3544908f654e73489e4c443181e87c1033a",
+      "bytes": 625,
+      "pointer": "command-1-podgotovka.json"
+    },
+    {
+      "id": "command-2-napisanie",
+      "path": ".cursor/commands/2-napisanie.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "14f0a2e4edcb0e28fbc5ee4d34a939cc0b111e5c",
+      "bytes": 622,
+      "pointer": "command-2-napisanie.json"
+    },
+    {
+      "id": "command-3-redaktor",
+      "path": ".cursor/commands/3-redaktor.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "f06e77def5588794731a76880fb07ce99304fff2",
+      "bytes": 619,
+      "pointer": "command-3-redaktor.json"
     }
   ],
   "excluded": [

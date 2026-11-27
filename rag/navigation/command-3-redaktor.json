@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "command-3-redaktor",
+  "path": ".cursor/commands/3-redaktor.md",
+  "blob_sha": "f06e77def5588794731a76880fb07ce99304fff2",
+  "lines": 3,
+  "preamble": null,
+  "sections": [
+    {
+      "level": 1,
+      "title": "Редактор",
+      "start": 1,
+      "parents": [],
+      "end": 3
+    }
+  ]
+}

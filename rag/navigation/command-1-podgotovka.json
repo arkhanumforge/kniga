@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "command-1-podgotovka",
+  "path": ".cursor/commands/1-podgotovka.md",
+  "blob_sha": "db43f3544908f654e73489e4c443181e87c1033a",
+  "lines": 3,
+  "preamble": null,
+  "sections": [
+    {
+      "level": 1,
+      "title": "Подготовка",
+      "start": 1,
+      "parents": [],
+      "end": 3
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "command-2-napisanie",
+  "path": ".cursor/commands/2-napisanie.md",
+  "blob_sha": "14f0a2e4edcb0e28fbc5ee4d34a939cc0b111e5c",
+  "lines": 3,
+  "preamble": null,
+  "sections": [
+    {
+      "level": 1,
+      "title": "Написание",
+      "start": 1,
+      "parents": [],
+      "end": 3
+    }
+  ]
+}
