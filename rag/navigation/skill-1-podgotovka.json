@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "skill-1-podgotovka",
+  "path": ".cursor/skills/1-podgotovka/SKILL.md",
+  "blob_sha": "aa421727a005e1ad8e51948ecadf82a7628cbb83",
+  "lines": 12,
+  "preamble": [
+    1,
+    5
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "1 подготовка",
+      "start": 6,
+      "parents": [],
+      "end": 12
+    }
+  ]
+}

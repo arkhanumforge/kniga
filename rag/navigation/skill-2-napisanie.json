@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "skill-2-napisanie",
+  "path": ".cursor/skills/2-napisanie/SKILL.md",
+  "blob_sha": "6dfe1b3086e932328d369b0d110d9b90b0a20be1",
+  "lines": 12,
+  "preamble": [
+    1,
+    5
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "2 написание",
+      "start": 6,
+      "parents": [],
+      "end": 12
+    }
+  ]
+}

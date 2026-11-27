@@ -2,8 +2,8 @@
   "schema_version": 1,
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
-  "source_branch": "docs-revision",
-  "source_commit": "774d2f4517799baf2121aeb25ae77f7a9742def9",
+  "source_branch": "main",
+  "source_commit": "d317ee6568e208b9d397f74326aa24c96f3b5cae",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -264,8 +264,8 @@
       "path": "AGENTS.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "9def66e242c2f9dc76ffe741fe143f36a0f3a7f8",
-      "bytes": 3363,
+      "blob_sha": "9feeff240f87ff7da60bf49f5dd94967621df8be",
+      "bytes": 4261,
       "pointer": "agents.json"
     },
     {
@@ -375,6 +375,33 @@
       "blob_sha": "2379cc21d305ffe0445b6673ad78b736694191fe",
       "bytes": 1919,
       "pointer": "skill-write-scene.json"
+    },
+    {
+      "id": "skill-1-podgotovka",
+      "path": ".cursor/skills/1-podgotovka/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "aa421727a005e1ad8e51948ecadf82a7628cbb83",
+      "bytes": 2617,
+      "pointer": "skill-1-podgotovka.json"
+    },
+    {
+      "id": "skill-2-napisanie",
+      "path": ".cursor/skills/2-napisanie/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "6dfe1b3086e932328d369b0d110d9b90b0a20be1",
+      "bytes": 2820,
+      "pointer": "skill-2-napisanie.json"
+    },
+    {
+      "id": "skill-3-redaktor",
+      "path": ".cursor/skills/3-redaktor/SKILL.md",
+      "kind": "process",
+      "scope": "process",
+      "blob_sha": "ad81e84e3410e6602cca436de383c51341ef66ee",
+      "bytes": 4743,
+      "pointer": "skill-3-redaktor.json"
     }
   ],
   "excluded": [

@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "agents",
   "path": "AGENTS.md",
-  "blob_sha": "9def66e242c2f9dc76ffe741fe143f36a0f3a7f8",
-  "lines": 9,
+  "blob_sha": "9feeff240f87ff7da60bf49f5dd94967621df8be",
+  "lines": 17,
   "preamble": null,
   "sections": [
     {
@@ -12,7 +12,16 @@
       "title": "Инструкции агентам книги",
       "start": 1,
       "parents": [],
-      "end": 9
+      "end": 17
+    },
+    {
+      "level": 2,
+      "title": "Быстрые команды автора",
+      "start": 11,
+      "parents": [
+        "Инструкции агентам книги"
+      ],
+      "end": 17
     }
   ]
 }

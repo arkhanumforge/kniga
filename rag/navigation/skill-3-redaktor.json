@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "skill-3-redaktor",
+  "path": ".cursor/skills/3-redaktor/SKILL.md",
+  "blob_sha": "ad81e84e3410e6602cca436de383c51341ef66ee",
+  "lines": 16,
+  "preamble": [
+    1,
+    5
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "3 редактор",
+      "start": 6,
+      "parents": [],
+      "end": 16
+    }
+  ]
+}
