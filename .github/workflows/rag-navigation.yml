@@ -1,0 +1,55 @@
+name: RAG navigation (revision)
+on:
+  push:
+    branches: [docs-revision]
+    paths:
+      - '*.md'
+      - '.cursor/**'
+      - 'rag/*.mjs'
+      - 'rag/source_registry.json'
+      - '.github/workflows/rag-navigation.yml'
+      - '!Журнал ревизии.md'
+permissions:
+  contents: write
+concurrency:
+  group: rag-navigation-docs-revision
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/docs-revision'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: docs-revision
+          fetch-depth: 0
+      - name: Test and refresh on the current branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node --version
+          for attempt in 1 2 3; do
+            git fetch origin refs/heads/docs-revision:refs/remotes/origin/docs-revision
+            # Isolated runner checkout only; never touch main or the user's worktree.
+            git reset --hard refs/remotes/origin/docs-revision
+            node rag/test_navigation.mjs
+            if node rag/build_navigation.mjs --check; then
+              exit 0
+            fi
+            node rag/build_navigation.mjs --write
+            node rag/build_navigation.mjs --check
+            git add -A -- rag/navigation
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m "rag: refresh derived navigation"
+            # Fast-forward only; if a writer has advanced the branch, rebuild from the new head.
+            if git push origin HEAD:refs/heads/docs-revision; then
+              exit 0
+            fi
+          done
+          echo "Unable to publish a fresh index; direct-reading fallback required." >&2
+          exit 1
