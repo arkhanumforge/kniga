@@ -36,11 +36,11 @@ jobs:
             # Isolated runner checkout only; never touch main or the user's worktree.
             git reset --hard refs/remotes/origin/docs-revision
             node rag/test_navigation.mjs
-            if node rag/build_navigation.mjs --check; then
-              exit 0
+            if ! node rag/build_navigation.mjs --check; then
+              node rag/build_navigation.mjs --write
+              node rag/build_navigation.mjs --check
             fi
-            node rag/build_navigation.mjs --write
-            node rag/build_navigation.mjs --check
+            node rag/test_corpus.mjs
             git add -A -- rag/navigation
             if git diff --cached --quiet; then
               exit 0

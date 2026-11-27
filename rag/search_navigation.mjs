@@ -10,9 +10,15 @@ const manifest=JSON.parse(readFileSync(resolve(dir,"manifest.json"),"utf8"));
 const [mode,...args]=process.argv.slice(2),page=e=>JSON.parse(readFileSync(resolve(dir,e.pointer),"utf8"));
 if(mode==="review"){
  const [holder,chapter,point]=args,e=manifest.sources.find(e=>e.id==="knowledge-"+holder);if(!e)throw Error("unknown holder");
- console.log(JSON.stringify(reviewQueue(page(e),holder,Number(chapter),point),null,2));
+ console.log(JSON.stringify({...reviewQueue(page(e),holder,Number(chapter),point),source_commit:manifest.source_commit},null,2));
 }else if(mode==="author"){
  const q=args.join(" ").trim();if(!q)throw Error("empty query");
+ const exact=q.toUpperCase().match(/^[KP]-[A-Z]+-\d{3}-\d{2,}$/);
+ if(exact){
+  const results=manifest.sources.filter(e=>e.kind==="knowledge").flatMap(e=>page(e).records.filter(r=>r.id===exact[0]).map(r=>({scope:"author-candidate",id:r.id,kind:"knowledge",status_hint:r.status,path:e.path,blob_sha:e.blob_sha,start:r.start,end:r.end,commit:manifest.source_commit,review_required:true})));
+  console.log(JSON.stringify({scope:"author-only",mandatory_knowledge:manifest.mandatory_knowledge,warning:"Exact source ID; not proof of knowledge at a scene.",results},null,2));
+  process.exit(0);
+ }
  const aliases=[["лиз","элизабет","лиззи"],["райнор","райнер"],["паскаль","паск"],["пленник","кривой"]];
  const queries=[q];for(const group of aliases)if(group.some(x=>q.toLowerCase().includes(x)))queries.push(group.join(" "));
  const results=[];
@@ -24,7 +30,7 @@ if(mode==="review"){
    for(let start=starts[i];start<=end;start+=30){
     const stop=Math.min(end,start+29),body=lines.slice(start-1,stop).join("\n"),heading=p.sections.filter(h=>h.start<=start&&h.end>=start).at(-1);
     const score=Math.max(...queries.map(x=>lexicalScore(x,body)+(heading?lexicalScore(x,heading.title)*0.5:0)));
-    if(score>0)results.push({scope:"author-candidate",kind:e.kind,status_hint:e.scope,path:e.path,blob_sha:e.blob_sha,start,end:stop,score,commit:manifest.source_commit});
+    if(score>0)results.push({scope:"author-candidate",kind:e.kind,status_hint:e.scope,path:e.path,blob_sha:e.blob_sha,start,end:stop,section_start:heading?.start??start,section_end:heading?.end??stop,score,commit:manifest.source_commit});
    }
   }
  }
