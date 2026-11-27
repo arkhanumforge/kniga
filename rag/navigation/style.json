@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "style",
   "path": "Стиль.md",
-  "blob_sha": "04ff91e1f4c08714e10ed898312b8d5454cf4114",
-  "lines": 112,
+  "blob_sha": "39e3a7074fdbfa60a7bcd8e182f75cfea77e7f36",
+  "lines": 114,
   "preamble": null,
   "sections": [
     {
@@ -12,7 +12,7 @@
       "title": "Стиль повествования Элизабет",
       "start": 1,
       "parents": [],
-      "end": 112
+      "end": 114
     },
     {
       "level": 2,
@@ -66,34 +66,34 @@
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 86
+      "end": 88
     },
     {
       "level": 2,
       "title": "Близость Лизы и читателя",
-      "start": 87,
+      "start": 89,
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 94
+      "end": 96
     },
     {
       "level": 2,
       "title": "Вычитка",
-      "start": 95,
+      "start": 97,
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 103
+      "end": 105
     },
     {
       "level": 2,
       "title": "Работа с автором",
-      "start": 104,
+      "start": 106,
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 112
+      "end": 114
     }
   ]
 }

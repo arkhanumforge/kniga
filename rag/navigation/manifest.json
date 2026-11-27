@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "docs-revision",
-  "source_commit": "82b13d45081e6b57b04c41d8bc470b2ba857452f",
+  "source_commit": "fed872d38d30c66eb73a9174aef5358a636d4240",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -89,8 +89,8 @@
       "path": "Стиль.md",
       "kind": "rule",
       "scope": "mandatory-core",
-      "blob_sha": "04ff91e1f4c08714e10ed898312b8d5454cf4114",
-      "bytes": 40790,
+      "blob_sha": "39e3a7074fdbfa60a7bcd8e182f75cfea77e7f36",
+      "bytes": 42998,
       "pointer": "style.json"
     },
     {
@@ -116,8 +116,8 @@
       "path": "Химия и динамика диалогов.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "3f4bd4d16fdca8c41f1a334e2fcd539bab547a13",
-      "bytes": 26022,
+      "blob_sha": "0b5e2d7c66f4156fc0779d5e4cc512d0e8b6d12d",
+      "bytes": 29707,
       "pointer": "dialogue.json"
     },
     {
@@ -125,8 +125,8 @@
       "path": "Развитие отношений Лизы и Паскаля.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "2d1e0aaa53bce057a2a2e514a726190d128ae31f",
-      "bytes": 34090,
+      "blob_sha": "3f1acf9c6a1e2d2d8952ba2ce005211fe59bcea0",
+      "bytes": 34597,
       "pointer": "relations.json"
     },
     {
@@ -219,8 +219,8 @@
       "path": "Арки (задумано).md",
       "kind": "plan",
       "scope": "planning",
-      "blob_sha": "2e8699db0cdee52ccdeacc1a3019a0808b07869b",
-      "bytes": 54702,
+      "blob_sha": "3bbe18664bfcd914471fd5ba3a3e71243dce712e",
+      "bytes": 55732,
       "pointer": "arcs.json"
     },
     {
@@ -273,8 +273,8 @@
       "path": "GENERAL.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "e822e642ba1a9409a4052928a93db1b638c44e71",
-      "bytes": 30617,
+      "blob_sha": "3c6a17f49055323d246bd73a86685fb55c5b2dd7",
+      "bytes": 31924,
       "pointer": "general.json"
     },
     {
