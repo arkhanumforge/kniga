@@ -31,7 +31,7 @@ for(const p of maps){
 }
 assert.ok(mentions.every(m=>all.has(m[0])),"unresolved knowledge reference");
 console.log("CORPUS STRUCTURE: "+all.size+" unique definitions; "+mentions.length+" mentions; "+queues+" candidate queues; no body or planned/foreign IDs in queues");
-const baseline=["d4c64d50e3462086b7a85c060f27d1a4c4ec1b8e","10adb6dbeab2b60df8e4fb9bf983c127ce3085cd","10542e47eb1cbd1f6440c483d3bae14bc02e8cd5","03ded5069d3df52d0bb25194e4ccc8854d661d20"];
+const baseline=["c8a0330cf1045147648c07a65b5f9e5cd3186570","10adb6dbeab2b60df8e4fb9bf983c127ce3085cd","10542e47eb1cbd1f6440c483d3bae14bc02e8cd5","481f0b2da8a6c809be58020e78375e8728423db0"];
 if(!baseline.every(b=>maps.some(p=>p.blob_sha===b))){
  console.log("Baseline probes skipped: map blobs changed; update test expectations only after accepted canon changes.");process.exit(0);
 }
