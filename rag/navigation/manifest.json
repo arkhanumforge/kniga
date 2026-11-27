@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "docs-revision",
-  "source_commit": "6b106ad09d0be4552d9c0a867929c598ba82405f",
+  "source_commit": "82b13d45081e6b57b04c41d8bc470b2ba857452f",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -125,8 +125,8 @@
       "path": "Развитие отношений Лизы и Паскаля.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "089ec27a9c27648f7cb0be6218d7bda5032fc910",
-      "bytes": 32838,
+      "blob_sha": "2d1e0aaa53bce057a2a2e514a726190d128ae31f",
+      "bytes": 34090,
       "pointer": "relations.json"
     },
     {
@@ -219,8 +219,8 @@
       "path": "Арки (задумано).md",
       "kind": "plan",
       "scope": "planning",
-      "blob_sha": "761f17fd1e6263c03d0dbbcaa90b2a3d0ab55ec9",
-      "bytes": 52421,
+      "blob_sha": "2e8699db0cdee52ccdeacc1a3019a0808b07869b",
+      "bytes": 54702,
       "pointer": "arcs.json"
     },
     {
