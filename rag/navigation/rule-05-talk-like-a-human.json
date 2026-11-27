@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "rule-05-talk-like-a-human",
+  "path": ".cursor/rules/05-talk-like-a-human.mdc",
+  "blob_sha": "30de57a71bbfd9351ecc9a6fe2520eabb435c94c",
+  "lines": 19,
+  "preamble": [
+    1,
+    5
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "Как писать автору",
+      "start": 6,
+      "parents": [],
+      "end": 19
+    },
+    {
+      "level": 2,
+      "title": "Обязательно",
+      "start": 10,
+      "parents": [
+        "Как писать автору"
+      ],
+      "end": 15
+    },
+    {
+      "level": 2,
+      "title": "Нельзя",
+      "start": 16,
+      "parents": [
+        "Как писать автору"
+      ],
+      "end": 19
+    }
+  ]
+}

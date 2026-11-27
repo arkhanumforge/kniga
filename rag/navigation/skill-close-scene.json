@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "skill-close-scene",
+  "path": ".cursor/skills/close-scene/SKILL.md",
+  "blob_sha": "a1e3cd24594700855b498035b7de873d17b203ae",
+  "lines": 27,
+  "preamble": [
+    1,
+    8
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "Закрытие сцены (дешёвая модель)",
+      "start": 9,
+      "parents": [],
+      "end": 27
+    },
+    {
+      "level": 2,
+      "title": "Когда",
+      "start": 11,
+      "parents": [
+        "Закрытие сцены (дешёвая модель)"
+      ],
+      "end": 13
+    },
+    {
+      "level": 2,
+      "title": "Сделать коротко",
+      "start": 14,
+      "parents": [
+        "Закрытие сцены (дешёвая модель)"
+      ],
+      "end": 25
+    },
+    {
+      "level": 2,
+      "title": "Конец главы",
+      "start": 26,
+      "parents": [
+        "Закрытие сцены (дешёвая модель)"
+      ],
+      "end": 27
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "state",
+  "path": "Сейчас.md",
+  "blob_sha": "d1ad726c5eb0982651d0f5c198d70054dc0e476b",
+  "lines": 29,
+  "preamble": null,
+  "sections": [
+    {
+      "level": 1,
+      "title": "Состояние героев по сценам",
+      "start": 1,
+      "parents": [],
+      "end": 29
+    },
+    {
+      "level": 2,
+      "title": "S-M-08-IN — вход в главу 8",
+      "start": 5,
+      "parents": [
+        "Состояние героев по сценам"
+      ],
+      "end": 9
+    },
+    {
+      "level": 2,
+      "title": "S-M-08-BUCKET — после перестановки креплений",
+      "start": 10,
+      "parents": [
+        "Состояние героев по сценам"
+      ],
+      "end": 14
+    },
+    {
+      "level": 2,
+      "title": "S-M-08-PRIVATE — после ухода графа, разговор с Паскалем",
+      "start": 15,
+      "parents": [
+        "Состояние героев по сценам"
+      ],
+      "end": 20
+    },
+    {
+      "level": 2,
+      "title": "S-M-08-OUT — последний написанный момент",
+      "start": 21,
+      "parents": [
+        "Состояние героев по сценам"
+      ],
+      "end": 27
+    },
+    {
+      "level": 2,
+      "title": "Перед сценой",
+      "start": 28,
+      "parents": [
+        "Состояние героев по сценам"
+      ],
+      "end": 29
+    }
+  ]
+}

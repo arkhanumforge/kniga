@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "author-navigation-only",
+  "id": "chapter-2",
+  "path": "Глава 2.md",
+  "blob_sha": "09ca2f58c67351626a882f667dc39ef35bccc227",
+  "lines": 455,
+  "preamble": null,
+  "sections": [
+    {
+      "level": 1,
+      "title": "Глава 2. Впрочем, ничего страшного пока не произошло",
+      "start": 1,
+      "parents": [],
+      "end": 455
+    }
+  ]
+}
