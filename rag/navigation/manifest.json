@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "7d2f91d3f6d6a96cfc7db6292e595e4dc3d9a808",
+  "source_commit": "ef5492d276f2f0dae54a760e3e12636e2b0ffffc",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -300,8 +300,8 @@
       "path": ".cursor/rules/02-chapter-plan-structure.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "0957702d1a3fec462f3b9f03f1ebc965f80f1a23",
-      "bytes": 6829,
+      "blob_sha": "ebfff563822d7901468165724642357a6cf30910",
+      "bytes": 17182,
       "pointer": "rule-02-chapter-plan-structure.json"
     },
     {
@@ -354,8 +354,8 @@
       "path": ".cursor/skills/plan-chapter/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "d477e8e17430191de72a57fe7f7d86adaa14a76e",
-      "bytes": 1508,
+      "blob_sha": "b3796c6f6cc6563b053c4e68da2e88638d3c651c",
+      "bytes": 2423,
       "pointer": "skill-plan-chapter.json"
     },
     {

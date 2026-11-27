@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "skill-plan-chapter",
   "path": ".cursor/skills/plan-chapter/SKILL.md",
-  "blob_sha": "d477e8e17430191de72a57fe7f7d86adaa14a76e",
-  "lines": 9,
+  "blob_sha": "b3796c6f6cc6563b053c4e68da2e88638d3c651c",
+  "lines": 13,
   "preamble": [
     1,
     6
@@ -15,7 +15,7 @@
       "title": "План главы",
       "start": 7,
       "parents": [],
-      "end": 9
+      "end": 13
     }
   ]
 }

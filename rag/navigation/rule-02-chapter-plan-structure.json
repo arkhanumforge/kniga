@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "rule-02-chapter-plan-structure",
   "path": ".cursor/rules/02-chapter-plan-structure.mdc",
-  "blob_sha": "0957702d1a3fec462f3b9f03f1ebc965f80f1a23",
-  "lines": 57,
+  "blob_sha": "ebfff563822d7901468165724642357a6cf30910",
+  "lines": 95,
   "preamble": [
     1,
     5
@@ -15,25 +15,34 @@
       "title": "Шаблон планов глав 8+",
       "start": 6,
       "parents": [],
-      "end": 57
+      "end": 95
     },
     {
       "level": 2,
-      "title": "Шаблон для копирования",
+      "title": "Перед планированием",
       "start": 10,
       "parents": [
         "Шаблон планов глав 8+"
       ],
-      "end": 49
+      "end": 13
     },
     {
       "level": 2,
-      "title": "Как заполнять",
-      "start": 50,
+      "title": "Шаблон для копирования",
+      "start": 14,
       "parents": [
         "Шаблон планов глав 8+"
       ],
-      "end": 57
+      "end": 85
+    },
+    {
+      "level": 2,
+      "title": "Как заполнять и проверять",
+      "start": 86,
+      "parents": [
+        "Шаблон планов глав 8+"
+      ],
+      "end": 95
     }
   ]
 }
