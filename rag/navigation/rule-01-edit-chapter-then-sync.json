@@ -3,55 +3,11 @@
   "scope": "author-navigation-only",
   "id": "rule-01-edit-chapter-then-sync",
   "path": ".cursor/rules/01-edit-chapter-then-sync.mdc",
-  "blob_sha": "1690e32448bc7978f9e647248c06727792c9ea17",
-  "lines": 36,
+  "blob_sha": "34d450e722db91a4972e8cbe25a4172b953b468c",
+  "lines": 8,
   "preamble": [
     1,
-    5
+    8
   ],
-  "sections": [
-    {
-      "level": 1,
-      "title": "Правки главы и синхронизация файлов",
-      "start": 6,
-      "parents": [],
-      "end": 36
-    },
-    {
-      "level": 2,
-      "title": "Цель",
-      "start": 8,
-      "parents": [
-        "Правки главы и синхронизация файлов"
-      ],
-      "end": 11
-    },
-    {
-      "level": 2,
-      "title": "Когда автор просит правку / дописать сцену",
-      "start": 12,
-      "parents": [
-        "Правки главы и синхронизация файлов"
-      ],
-      "end": 22
-    },
-    {
-      "level": 2,
-      "title": "Когда синхронизировать план и сводку",
-      "start": 23,
-      "parents": [
-        "Правки главы и синхронизация файлов"
-      ],
-      "end": 31
-    },
-    {
-      "level": 2,
-      "title": "Лор вне главы",
-      "start": 32,
-      "parents": [
-        "Правки главы и синхронизация файлов"
-      ],
-      "end": 36
-    }
-  ]
+  "sections": []
 }

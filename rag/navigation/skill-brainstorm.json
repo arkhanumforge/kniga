@@ -3,64 +3,19 @@
   "scope": "author-navigation-only",
   "id": "skill-brainstorm",
   "path": ".cursor/skills/brainstorm/SKILL.md",
-  "blob_sha": "b913dcceb2a2085261fbcada5c52a95d5d500983",
-  "lines": 46,
+  "blob_sha": "29896d898e942c7a89608f3a1077e561d5712a28",
+  "lines": 13,
   "preamble": [
     1,
-    10
+    6
   ],
   "sections": [
     {
       "level": 1,
       "title": "Креативный спарринг",
-      "start": 11,
+      "start": 7,
       "parents": [],
-      "end": 46
-    },
-    {
-      "level": 2,
-      "title": "Роль",
-      "start": 13,
-      "parents": [
-        "Креативный спарринг"
-      ],
-      "end": 19
-    },
-    {
-      "level": 2,
-      "title": "Перед ответом обязательно",
-      "start": 20,
-      "parents": [
-        "Креативный спарринг"
-      ],
-      "end": 27
-    },
-    {
-      "level": 2,
-      "title": "Как разбирать идею автора",
-      "start": 28,
-      "parents": [
-        "Креативный спарринг"
-      ],
-      "end": 36
-    },
-    {
-      "level": 2,
-      "title": "Запросы вида «хочу эмоционалку / чтобы кто-то умер / нового персонажа»",
-      "start": 37,
-      "parents": [
-        "Креативный спарринг"
-      ],
-      "end": 41
-    },
-    {
-      "level": 2,
-      "title": "Не делать",
-      "start": 42,
-      "parents": [
-        "Креативный спарринг"
-      ],
-      "end": 46
+      "end": 13
     }
   ]
 }

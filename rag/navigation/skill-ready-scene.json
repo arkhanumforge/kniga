@@ -3,55 +3,19 @@
   "scope": "author-navigation-only",
   "id": "skill-ready-scene",
   "path": ".cursor/skills/ready-scene/SKILL.md",
-  "blob_sha": "869fa6ee54d511de292091b9f89084d3f2a76d6d",
-  "lines": 30,
+  "blob_sha": "79d935dbb596c8527ff0ae8e8f6123531f49357e",
+  "lines": 9,
   "preamble": [
     1,
-    8
+    6
   ],
   "sections": [
     {
       "level": 1,
       "title": "Сцена готова?",
-      "start": 9,
+      "start": 7,
       "parents": [],
-      "end": 30
-    },
-    {
-      "level": 2,
-      "title": "Правило",
-      "start": 11,
-      "parents": [
-        "Сцена готова?"
-      ],
-      "end": 13
-    },
-    {
-      "level": 2,
-      "title": "До подробного плана",
-      "start": 14,
-      "parents": [
-        "Сцена готова?"
-      ],
-      "end": 16
-    },
-    {
-      "level": 2,
-      "title": "В плане сцены обязательно",
-      "start": 17,
-      "parents": [
-        "Сцена готова?"
-      ],
-      "end": 27
-    },
-    {
-      "level": 2,
-      "title": "Сверка",
-      "start": 28,
-      "parents": [
-        "Сцена готова?"
-      ],
-      "end": 30
+      "end": 9
     }
   ]
 }

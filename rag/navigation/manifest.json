@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "docs-revision",
-  "source_commit": "21629fe953abbb485faa4adf55ec7fc2213ea071",
+  "source_commit": "a7ec005f44ba2002faabcc7c09fa9bd9784ed155",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -264,8 +264,8 @@
       "path": "AGENTS.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "8bc321188338e1b2c5346dd70f017b0e3d32b059",
-      "bytes": 8546,
+      "blob_sha": "9def66e242c2f9dc76ffe741fe143f36a0f3a7f8",
+      "bytes": 3363,
       "pointer": "agents.json"
     },
     {
@@ -273,8 +273,8 @@
       "path": "GENERAL.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "5e07fe50be168ef964d2a72e2089f18e31eb94ac",
-      "bytes": 29005,
+      "blob_sha": "e822e642ba1a9409a4052928a93db1b638c44e71",
+      "bytes": 30617,
       "pointer": "general.json"
     },
     {
@@ -282,8 +282,8 @@
       "path": ".cursor/rules/00-read-before-every-scene.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "439c6d51e34d58711813695d3e4475752467830b",
-      "bytes": 17048,
+      "blob_sha": "528093a6b260f47430b650c8ab230d9c11dae3c3",
+      "bytes": 1401,
       "pointer": "rule-00-read-before-every-scene.json"
     },
     {
@@ -291,8 +291,8 @@
       "path": ".cursor/rules/01-edit-chapter-then-sync.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "1690e32448bc7978f9e647248c06727792c9ea17",
-      "bytes": 2934,
+      "blob_sha": "34d450e722db91a4972e8cbe25a4172b953b468c",
+      "bytes": 1373,
       "pointer": "rule-01-edit-chapter-then-sync.json"
     },
     {
@@ -300,8 +300,8 @@
       "path": ".cursor/rules/02-chapter-plan-structure.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "808d8febef668b54ddf443a9ec24dc2b2bfd8ae3",
-      "bytes": 6719,
+      "blob_sha": "0957702d1a3fec462f3b9f03f1ebc965f80f1a23",
+      "bytes": 6829,
       "pointer": "rule-02-chapter-plan-structure.json"
     },
     {
@@ -309,8 +309,8 @@
       "path": ".cursor/rules/03-writer-vs-routine.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "9920db6b0bd83418ee8cc056e5f5f117aa8de809",
-      "bytes": 2157,
+      "blob_sha": "426411d7c93f3c85da21173e4987e5c0320e8847",
+      "bytes": 1163,
       "pointer": "rule-03-writer-vs-routine.json"
     },
     {
@@ -318,8 +318,8 @@
       "path": ".cursor/rules/04-never-lie-to-lore.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "b42350ef62eb1788b6143f7746ca24160ff30106",
-      "bytes": 5727,
+      "blob_sha": "5a0248f203248d720f7c5978aaa654fa5085eba4",
+      "bytes": 1525,
       "pointer": "rule-04-never-lie-to-lore.json"
     },
     {
@@ -327,8 +327,8 @@
       "path": ".cursor/rules/05-talk-like-a-human.mdc",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "30de57a71bbfd9351ecc9a6fe2520eabb435c94c",
-      "bytes": 1370,
+      "blob_sha": "1a6d5f092a33254c25928187a617e61d4dc83159",
+      "bytes": 1632,
       "pointer": "rule-05-talk-like-a-human.json"
     },
     {
@@ -336,8 +336,8 @@
       "path": ".cursor/skills/brainstorm/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "b913dcceb2a2085261fbcada5c52a95d5d500983",
-      "bytes": 4033,
+      "blob_sha": "29896d898e942c7a89608f3a1077e561d5712a28",
+      "bytes": 2058,
       "pointer": "skill-brainstorm.json"
     },
     {
@@ -345,8 +345,8 @@
       "path": ".cursor/skills/close-scene/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "a1e3cd24594700855b498035b7de873d17b203ae",
-      "bytes": 2233,
+      "blob_sha": "b291d337fe5e3360b8ed51b1884eefb38d85ba1c",
+      "bytes": 2212,
       "pointer": "skill-close-scene.json"
     },
     {
@@ -354,8 +354,8 @@
       "path": ".cursor/skills/plan-chapter/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "42a32663877a6a4162e0e4d13fecb7cd8c84f4bc",
-      "bytes": 3218,
+      "blob_sha": "d477e8e17430191de72a57fe7f7d86adaa14a76e",
+      "bytes": 1508,
       "pointer": "skill-plan-chapter.json"
     },
     {
@@ -363,8 +363,8 @@
       "path": ".cursor/skills/ready-scene/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "869fa6ee54d511de292091b9f89084d3f2a76d6d",
-      "bytes": 3300,
+      "blob_sha": "79d935dbb596c8527ff0ae8e8f6123531f49357e",
+      "bytes": 1552,
       "pointer": "skill-ready-scene.json"
     },
     {
@@ -372,8 +372,8 @@
       "path": ".cursor/skills/write-scene/SKILL.md",
       "kind": "process",
       "scope": "process",
-      "blob_sha": "262a4259431e854488be3ac7c48c7d12e03016f2",
-      "bytes": 5838,
+      "blob_sha": "2379cc21d305ffe0445b6673ad78b736694191fe",
+      "bytes": 1919,
       "pointer": "skill-write-scene.json"
     }
   ],

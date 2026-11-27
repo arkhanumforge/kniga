@@ -3,25 +3,16 @@
   "scope": "author-navigation-only",
   "id": "agents",
   "path": "AGENTS.md",
-  "blob_sha": "8bc321188338e1b2c5346dd70f017b0e3d32b059",
-  "lines": 25,
+  "blob_sha": "9def66e242c2f9dc76ffe741fe143f36a0f3a7f8",
+  "lines": 9,
   "preamble": null,
   "sections": [
     {
       "level": 1,
-      "title": "Инструкции агентам проекта книги",
+      "title": "Инструкции агентам книги",
       "start": 1,
       "parents": [],
-      "end": 25
-    },
-    {
-      "level": 2,
-      "title": "Обязательная основа детективной линии",
-      "start": 3,
-      "parents": [
-        "Инструкции агентам проекта книги"
-      ],
-      "end": 25
+      "end": 9
     }
   ]
 }

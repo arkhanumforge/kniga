@@ -3,64 +3,19 @@
   "scope": "author-navigation-only",
   "id": "skill-write-scene",
   "path": ".cursor/skills/write-scene/SKILL.md",
-  "blob_sha": "262a4259431e854488be3ac7c48c7d12e03016f2",
-  "lines": 39,
+  "blob_sha": "2379cc21d305ffe0445b6673ad78b736694191fe",
+  "lines": 11,
   "preamble": [
     1,
-    9
+    6
   ],
   "sections": [
     {
       "level": 1,
-      "title": "Писатель сцены (Sol)",
-      "start": 10,
+      "title": "Писатель сцены",
+      "start": 7,
       "parents": [],
-      "end": 39
-    },
-    {
-      "level": 2,
-      "title": "Главное",
-      "start": 12,
-      "parents": [
-        "Писатель сцены (Sol)"
-      ],
-      "end": 14
-    },
-    {
-      "level": 2,
-      "title": "Можно",
-      "start": 15,
-      "parents": [
-        "Писатель сцены (Sol)"
-      ],
-      "end": 19
-    },
-    {
-      "level": 2,
-      "title": "Нельзя (стоп → попросить дешёвую модель)",
-      "start": 20,
-      "parents": [
-        "Писатель сцены (Sol)"
-      ],
-      "end": 25
-    },
-    {
-      "level": 2,
-      "title": "Перед текстом (обязательно для любого агента, не только Sol)",
-      "start": 26,
-      "parents": [
-        "Писатель сцены (Sol)"
-      ],
-      "end": 36
-    },
-    {
-      "level": 2,
-      "title": "После правок в чате",
-      "start": 37,
-      "parents": [
-        "Писатель сцены (Sol)"
-      ],
-      "end": 39
+      "end": 11
     }
   ]
 }

@@ -3,55 +3,11 @@
   "scope": "author-navigation-only",
   "id": "rule-03-writer-vs-routine",
   "path": ".cursor/rules/03-writer-vs-routine.mdc",
-  "blob_sha": "9920db6b0bd83418ee8cc056e5f5f117aa8de809",
-  "lines": 25,
+  "blob_sha": "426411d7c93f3c85da21173e4987e5c0320e8847",
+  "lines": 8,
   "preamble": [
     1,
-    5
+    8
   ],
-  "sections": [
-    {
-      "level": 1,
-      "title": "Роли моделей и память книги",
-      "start": 6,
-      "parents": [],
-      "end": 25
-    },
-    {
-      "level": 2,
-      "title": "Не врать лору (главное)",
-      "start": 8,
-      "parents": [
-        "Роли моделей и память книги"
-      ],
-      "end": 10
-    },
-    {
-      "level": 2,
-      "title": "Sol / дорогая модель = писатель",
-      "start": 11,
-      "parents": [
-        "Роли моделей и память книги"
-      ],
-      "end": 16
-    },
-    {
-      "level": 2,
-      "title": "Перед любой новой сценой или подробным планом сцены",
-      "start": 17,
-      "parents": [
-        "Роли моделей и память книги"
-      ],
-      "end": 23
-    },
-    {
-      "level": 2,
-      "title": "Антиповтор",
-      "start": 24,
-      "parents": [
-        "Роли моделей и память книги"
-      ],
-      "end": 25
-    }
-  ]
+  "sections": []
 }

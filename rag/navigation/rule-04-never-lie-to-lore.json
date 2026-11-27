@@ -3,62 +3,11 @@
   "scope": "author-navigation-only",
   "id": "rule-04-never-lie-to-lore",
   "path": ".cursor/rules/04-never-lie-to-lore.mdc",
-  "blob_sha": "b42350ef62eb1788b6143f7746ca24160ff30106",
-  "lines": 33,
+  "blob_sha": "5a0248f203248d720f7c5978aaa654fa5085eba4",
+  "lines": 8,
   "preamble": [
     1,
-    5
+    8
   ],
-  "sections": [
-    {
-      "level": 2,
-      "title": "Обязательная основа детективной линии",
-      "start": 6,
-      "parents": [],
-      "end": 13
-    },
-    {
-      "level": 1,
-      "title": "Не врать лору",
-      "start": 14,
-      "parents": [],
-      "end": 33
-    },
-    {
-      "level": 2,
-      "title": "Канон = файлы, не память чата",
-      "start": 18,
-      "parents": [
-        "Не врать лору"
-      ],
-      "end": 21
-    },
-    {
-      "level": 2,
-      "title": "Перед текстом сцены (в т.ч. GPT-Sol)",
-      "start": 22,
-      "parents": [
-        "Не врать лору"
-      ],
-      "end": 26
-    },
-    {
-      "level": 2,
-      "title": "Запрещено",
-      "start": 27,
-      "parents": [
-        "Не врать лору"
-      ],
-      "end": 31
-    },
-    {
-      "level": 2,
-      "title": "Если нашла противоречие",
-      "start": 32,
-      "parents": [
-        "Не врать лору"
-      ],
-      "end": 33
-    }
-  ]
+  "sections": []
 }

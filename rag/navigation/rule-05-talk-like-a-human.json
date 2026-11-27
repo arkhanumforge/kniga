@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "rule-05-talk-like-a-human",
   "path": ".cursor/rules/05-talk-like-a-human.mdc",
-  "blob_sha": "30de57a71bbfd9351ecc9a6fe2520eabb435c94c",
-  "lines": 19,
+  "blob_sha": "1a6d5f092a33254c25928187a617e61d4dc83159",
+  "lines": 21,
   "preamble": [
     1,
     5
@@ -15,7 +15,7 @@
       "title": "Как писать автору",
       "start": 6,
       "parents": [],
-      "end": 19
+      "end": 21
     },
     {
       "level": 2,
@@ -33,7 +33,7 @@
       "parents": [
         "Как писать автору"
       ],
-      "end": 19
+      "end": 21
     }
   ]
 }

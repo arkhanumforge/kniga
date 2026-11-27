@@ -3,55 +3,19 @@
   "scope": "author-navigation-only",
   "id": "skill-plan-chapter",
   "path": ".cursor/skills/plan-chapter/SKILL.md",
-  "blob_sha": "42a32663877a6a4162e0e4d13fecb7cd8c84f4bc",
-  "lines": 35,
+  "blob_sha": "d477e8e17430191de72a57fe7f7d86adaa14a76e",
+  "lines": 9,
   "preamble": [
     1,
-    8
+    6
   ],
   "sections": [
     {
       "level": 1,
-      "title": "План главы (помощник)",
-      "start": 9,
+      "title": "План главы",
+      "start": 7,
       "parents": [],
-      "end": 35
-    },
-    {
-      "level": 2,
-      "title": "Роль",
-      "start": 11,
-      "parents": [
-        "План главы (помощник)"
-      ],
-      "end": 13
-    },
-    {
-      "level": 2,
-      "title": "Обязательно прочитать",
-      "start": 14,
-      "parents": [
-        "План главы (помощник)"
-      ],
-      "end": 25
-    },
-    {
-      "level": 2,
-      "title": "Сделать",
-      "start": 26,
-      "parents": [
-        "План главы (помощник)"
-      ],
-      "end": 32
-    },
-    {
-      "level": 2,
-      "title": "Не делать",
-      "start": 33,
-      "parents": [
-        "План главы (помощник)"
-      ],
-      "end": 35
+      "end": 9
     }
   ]
 }
