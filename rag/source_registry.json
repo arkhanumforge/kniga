@@ -252,6 +252,24 @@
       "path": ".cursor/skills/write-scene/SKILL.md",
       "kind": "process",
       "scope": "process"
+    },
+    {
+      "id": "skill-1-podgotovka",
+      "path": ".cursor/skills/1-podgotovka/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-2-napisanie",
+      "path": ".cursor/skills/2-napisanie/SKILL.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "skill-3-redaktor",
+      "path": ".cursor/skills/3-redaktor/SKILL.md",
+      "kind": "process",
+      "scope": "process"
     }
   ],
   "excluded": [

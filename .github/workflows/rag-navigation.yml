@@ -1,7 +1,8 @@
-name: RAG navigation (revision)
+name: RAG navigation (main)
 on:
+  workflow_dispatch:
   push:
-    branches: [docs-revision]
+    branches: [main]
     paths:
       - '*.md'
       - '.cursor/**'
@@ -12,17 +13,17 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: rag-navigation-docs-revision
+  group: rag-navigation-main
   cancel-in-progress: false
 jobs:
   refresh:
-    if: github.ref == 'refs/heads/docs-revision'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          ref: docs-revision
+          ref: main
           fetch-depth: 0
       - name: Test and refresh on the current branch
         shell: bash
@@ -32,9 +33,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           node --version
           for attempt in 1 2 3; do
-            git fetch origin refs/heads/docs-revision:refs/remotes/origin/docs-revision
-            # Isolated runner checkout only; never touch main or the user's worktree.
-            git reset --hard refs/remotes/origin/docs-revision
+            git fetch origin refs/heads/main:refs/remotes/origin/main
+            # Isolated runner checkout only; never reset the user's worktree.
+            git reset --hard refs/remotes/origin/main
             node rag/test_navigation.mjs
             if ! node rag/build_navigation.mjs --check; then
               node rag/build_navigation.mjs --write
@@ -47,7 +48,7 @@ jobs:
             fi
             git commit -m "rag: refresh derived navigation"
             # Fast-forward only; if a writer has advanced the branch, rebuild from the new head.
-            if git push origin HEAD:refs/heads/docs-revision; then
+            if git push origin HEAD:refs/heads/main; then
               exit 0
             fi
           done

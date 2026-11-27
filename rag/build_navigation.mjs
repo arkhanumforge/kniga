@@ -10,7 +10,7 @@ const mode=process.argv[2];
 if(!["--write","--check"].includes(mode)||process.argv.length!==3)throw Error("Usage: node rag/build_navigation.mjs --write|--check");
 const head=git("rev-parse","HEAD").trim();
 const branch=git("branch","--show-current").trim();
-if(branch!=="docs-revision"&&process.env.GITHUB_REF!=="refs/heads/docs-revision")throw Error("Use docs-revision");
+if(branch!=="main"&&process.env.GITHUB_REF!=="refs/heads/main")throw Error("Use main");
 const registry=JSON.parse(git("show",head+":rag/source_registry.json"));
 function readTree(commit){
  return git("ls-tree","-r","-z","-l",commit).split("\0").filter(Boolean).map(r=>{

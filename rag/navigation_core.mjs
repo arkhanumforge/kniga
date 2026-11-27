@@ -59,7 +59,7 @@ function validateRegistry(registry,tree){
 function makeManifest(registry,tree,commit){
  if(!/^[0-9a-f]{40}$/.test(commit))throw Error("invalid commit");
  const map=validateRegistry(registry,tree);
- return {schema_version:1,generator_version:registry.generator_version,scope:"author-navigation-only",source_branch:"docs-revision",source_commit:commit,selection_ready:false,mandatory_knowledge:registry.mandatory_knowledge,sources:registry.sources.map(e=>({...e,blob_sha:map.get(e.path).sha,bytes:map.get(e.path).size,pointer:e.id+".json"})),excluded:registry.excluded};
+ return {schema_version:1,generator_version:registry.generator_version,scope:"author-navigation-only",source_branch:"main",source_commit:commit,selection_ready:false,mandatory_knowledge:registry.mandatory_knowledge,sources:registry.sources.map(e=>({...e,blob_sha:map.get(e.path).sha,bytes:map.get(e.path).size,pointer:e.id+".json"})),excluded:registry.excluded};
 }
 
 function reviewQueue(page,holder,chapter,point){

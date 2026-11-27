@@ -13,7 +13,7 @@ const write=(path,content)=>writeFileSync(join(root,path),content,"utf8");
 const commit=message=>{git("add","-A");git("commit","-m",message)};
 const fail=fn=>assert.throws(fn);
 try{
- git("init","-b","docs-revision");git("config","user.name","RAG test");git("config","user.email","test@example.invalid");
+ git("init","-b","main");git("config","user.name","RAG test");git("config","user.email","test@example.invalid");
  mkdirSync(join(root,"rag"));
  for(const file of ["navigation_core.mjs","build_navigation.mjs","search_navigation.mjs"])copyFileSync(join(source,file),join(root,"rag",file));
  const holders=[["liz","LIZ"],["pascal","PAS"],["rainor","RAI"],["reader","REA"]];
