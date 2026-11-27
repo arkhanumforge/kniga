@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "style",
   "path": "Стиль.md",
-  "blob_sha": "46331fc790954da960726022c979ef579f5c237a",
-  "lines": 116,
+  "blob_sha": "8162f70e56aa82a610db99bc6b340cddd23b0fde",
+  "lines": 118,
   "preamble": null,
   "sections": [
     {
@@ -12,7 +12,7 @@
       "title": "Стиль повествования Элизабет",
       "start": 1,
       "parents": [],
-      "end": 116
+      "end": 118
     },
     {
       "level": 2,
@@ -84,16 +84,16 @@
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 107
+      "end": 109
     },
     {
       "level": 2,
       "title": "Работа с автором",
-      "start": 108,
+      "start": 110,
       "parents": [
         "Стиль повествования Элизабет"
       ],
-      "end": 116
+      "end": 118
     }
   ]
 }

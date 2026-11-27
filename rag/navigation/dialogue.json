@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "dialogue",
   "path": "Химия и динамика диалогов.md",
-  "blob_sha": "df48bafbd7ecf473fabcb2b7e53baf5015de6cb0",
-  "lines": 119,
+  "blob_sha": "eb04a9c02e9ff9964c826b72d12147b7d95dcf0c",
+  "lines": 115,
   "preamble": null,
   "sections": [
     {
@@ -12,7 +12,7 @@
       "title": "Химия и динамика диалогов",
       "start": 1,
       "parents": [],
-      "end": 119
+      "end": 115
     },
     {
       "level": 2,
@@ -39,52 +39,52 @@
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 24
+      "end": 22
     },
     {
       "level": 2,
       "title": "Лиза — Паскаль",
-      "start": 25,
+      "start": 23,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 60
+      "end": 58
     },
     {
       "level": 2,
       "title": "Лиза — Райнор",
-      "start": 61,
+      "start": 59,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 81
+      "end": 79
     },
     {
       "level": 2,
       "title": "Паскаль — Райнор",
-      "start": 82,
+      "start": 80,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 102
+      "end": 100
     },
     {
       "level": 2,
       "title": "Для любой пары и разговора троих",
-      "start": 103,
+      "start": 101,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 110
+      "end": 108
     },
     {
       "level": 2,
       "title": "Рабочий процесс и две вычитки",
-      "start": 111,
+      "start": 109,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 119
+      "end": 115
     }
   ]
 }
