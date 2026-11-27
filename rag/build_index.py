@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = Path(__file__).resolve().parent / "index.json"
 
-# Без Книга.md (дубль глав, жрёт индекс) и без План лора (рабочий чат, не канон сцены).
+# Отдельные главы, включая главу 1; без Плана лора. Старый фильтр ещё не отделяет альтернативы и планы (этап 7).
 INCLUDE_NAMES = {
     "Мир.md",
     "Персонажи.md",
