@@ -3,8 +3,8 @@
   "scope": "author-navigation-only",
   "id": "dialogue",
   "path": "Химия и динамика диалогов.md",
-  "blob_sha": "0b5e2d7c66f4156fc0779d5e4cc512d0e8b6d12d",
-  "lines": 117,
+  "blob_sha": "df48bafbd7ecf473fabcb2b7e53baf5015de6cb0",
+  "lines": 119,
   "preamble": null,
   "sections": [
     {
@@ -12,7 +12,7 @@
       "title": "Химия и динамика диалогов",
       "start": 1,
       "parents": [],
-      "end": 117
+      "end": 119
     },
     {
       "level": 2,
@@ -75,16 +75,16 @@
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 108
+      "end": 110
     },
     {
       "level": 2,
       "title": "Рабочий процесс и две вычитки",
-      "start": 109,
+      "start": 111,
       "parents": [
         "Химия и динамика диалогов"
       ],
-      "end": 117
+      "end": 119
     }
   ]
 }

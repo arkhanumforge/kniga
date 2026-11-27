@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "docs-revision",
-  "source_commit": "fed872d38d30c66eb73a9174aef5358a636d4240",
+  "source_commit": "215ef2cfc8eb73a0c51bbf078d402739746d0e8a",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -89,8 +89,8 @@
       "path": "Стиль.md",
       "kind": "rule",
       "scope": "mandatory-core",
-      "blob_sha": "39e3a7074fdbfa60a7bcd8e182f75cfea77e7f36",
-      "bytes": 42998,
+      "blob_sha": "46331fc790954da960726022c979ef579f5c237a",
+      "bytes": 45423,
       "pointer": "style.json"
     },
     {
@@ -107,8 +107,8 @@
       "path": "Персонажи.md",
       "kind": "character",
       "scope": "mixed-author",
-      "blob_sha": "0188484c56cee3da2b467195f38603b4b55d5ca9",
-      "bytes": 112602,
+      "blob_sha": "d0ecfe699631d95886850ae46f8f152079a73372",
+      "bytes": 114185,
       "pointer": "characters.json"
     },
     {
@@ -116,8 +116,8 @@
       "path": "Химия и динамика диалогов.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "0b5e2d7c66f4156fc0779d5e4cc512d0e8b6d12d",
-      "bytes": 29707,
+      "blob_sha": "df48bafbd7ecf473fabcb2b7e53baf5015de6cb0",
+      "bytes": 31580,
       "pointer": "dialogue.json"
     },
     {
@@ -273,8 +273,8 @@
       "path": "GENERAL.md",
       "kind": "process",
       "scope": "mandatory-core",
-      "blob_sha": "3c6a17f49055323d246bd73a86685fb55c5b2dd7",
-      "bytes": 31924,
+      "blob_sha": "7dea82aeed99020ae00ba2ca2a7f8503b006334c",
+      "bytes": 33377,
       "pointer": "general.json"
     },
     {
