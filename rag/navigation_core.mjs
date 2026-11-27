@@ -49,7 +49,7 @@ function validateRegistry(registry,tree){
  const known=[...registry.sources.map(x=>x.path),...registry.excluded.map(x=>x.path)];
  if(new Set(known).size!==known.length)throw Error("duplicate path");
  const map=new Map(tree.map(x=>[x.path,x]));
- for(const x of tree.filter(x=>/^[^/]+\.md$|^\.cursor\/(?:rules|skills)\/.*\.(?:md|mdc)$/.test(x.path)))if(!known.includes(x.path))throw Error("unclassified source: "+x.path);
+ for(const x of tree.filter(x=>/^[^/]+\.md$|^\.cursor\/(?:rules|skills|commands)\/.*\.(?:md|mdc)$/.test(x.path)))if(!known.includes(x.path))throw Error("unclassified source: "+x.path);
  for(const p of known)if(!map.has(p))throw Error("missing registered source: "+p);
  const ids=new Set();for(const e of registry.sources){if(!/^[a-z0-9-]+$/.test(e.id)||ids.has(e.id))throw Error("invalid id "+e.id);ids.add(e.id)}
  if(registry.mandatory_knowledge.map(id=>registry.sources.find(x=>x.id===id)?.holder).join(",")!=="liz,pascal,rainor,reader")throw Error("four independent maps required");

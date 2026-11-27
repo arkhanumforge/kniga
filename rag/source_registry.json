@@ -270,6 +270,24 @@
       "path": ".cursor/skills/3-redaktor/SKILL.md",
       "kind": "process",
       "scope": "process"
+    },
+    {
+      "id": "command-1-podgotovka",
+      "path": ".cursor/commands/1-podgotovka.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "command-2-napisanie",
+      "path": ".cursor/commands/2-napisanie.md",
+      "kind": "process",
+      "scope": "process"
+    },
+    {
+      "id": "command-3-redaktor",
+      "path": ".cursor/commands/3-redaktor.md",
+      "kind": "process",
+      "scope": "process"
     }
   ],
   "excluded": [
