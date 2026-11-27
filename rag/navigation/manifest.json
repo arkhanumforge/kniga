@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "docs-revision",
-  "source_commit": "a7ec005f44ba2002faabcc7c09fa9bd9784ed155",
+  "source_commit": "de636db7bced2c4d0fc37b89cd6bbfc1407245ac",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -89,8 +89,8 @@
       "path": "Стиль.md",
       "kind": "rule",
       "scope": "mandatory-core",
-      "blob_sha": "baac4db012724441cf44409382dab860a8eb9e36",
-      "bytes": 40189,
+      "blob_sha": "04ff91e1f4c08714e10ed898312b8d5454cf4114",
+      "bytes": 40790,
       "pointer": "style.json"
     },
     {
@@ -153,8 +153,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "liz",
-      "blob_sha": "d4c64d50e3462086b7a85c060f27d1a4c4ec1b8e",
-      "bytes": 52107,
+      "blob_sha": "c8a0330cf1045147648c07a65b5f9e5cd3186570",
+      "bytes": 52392,
       "pointer": "knowledge-liz.json"
     },
     {
@@ -183,8 +183,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "reader",
-      "blob_sha": "03ded5069d3df52d0bb25194e4ccc8854d661d20",
-      "bytes": 59259,
+      "blob_sha": "481f0b2da8a6c809be58020e78375e8728423db0",
+      "bytes": 59547,
       "pointer": "knowledge-reader.json"
     },
     {
@@ -192,8 +192,8 @@
       "path": "События по главам.md",
       "kind": "event",
       "scope": "mixed-author",
-      "blob_sha": "3a8b14d930a9a1a7df0b14a92102d9464c13a4e2",
-      "bytes": 29170,
+      "blob_sha": "54f2284eb2be0a6e3d5dacf31f644405e7230852",
+      "bytes": 29349,
       "pointer": "events.json"
     },
     {
