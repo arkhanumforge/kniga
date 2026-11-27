@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "ef5492d276f2f0dae54a760e3e12636e2b0ffffc",
+  "source_commit": "640d332af35af7f454475cb671d92c715ebebf52",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -107,8 +107,8 @@
       "path": "Персонажи.md",
       "kind": "character",
       "scope": "mixed-author",
-      "blob_sha": "1810c3418eef2c8cf861d415b67c435f3192680e",
-      "bytes": 112932,
+      "blob_sha": "51bc1566e23dbbfbd0dd8ff0d0bae1ca54db1295",
+      "bytes": 114110,
       "pointer": "characters.json"
     },
     {
@@ -134,8 +134,8 @@
       "path": "Мир.md",
       "kind": "world",
       "scope": "author",
-      "blob_sha": "b26a6781da21b98d6b9a866c8dc9b2ea415ed043",
-      "bytes": 79085,
+      "blob_sha": "259bedb50acb677f05a9dda9b25c7927dddcd847",
+      "bytes": 84563,
       "pointer": "world.json"
     },
     {
@@ -143,8 +143,8 @@
       "path": "План лора.md",
       "kind": "plan",
       "scope": "mixed-author",
-      "blob_sha": "62c48e42e9b99c1cbc2b6d598d448802000c3fe4",
-      "bytes": 61375,
+      "blob_sha": "61a00c185ccae8ae449ccafb5dac1f8f22d1e875",
+      "bytes": 62112,
       "pointer": "lore-plan.json"
     },
     {
