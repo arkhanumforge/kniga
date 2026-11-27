@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "e53993d68785f2a84749d4cab942273a3b52b402",
+  "source_commit": "ada1f2e9c495c6937427ff7396b6215257bdb6a9",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -237,8 +237,8 @@
       "path": "План главы 8.md",
       "kind": "plan",
       "scope": "planning",
-      "blob_sha": "49f3bad31986cf4fb2be03e97470aa1ac1d6c1e1",
-      "bytes": 20123,
+      "blob_sha": "87488c31e9e7fc33f0aa687c4247bf7bd16b996c",
+      "bytes": 31753,
       "pointer": "plan-8.json"
     },
     {
