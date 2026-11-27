@@ -3,7 +3,7 @@
   "generator_version": "navigation-2",
   "scope": "author-navigation-only",
   "source_branch": "main",
-  "source_commit": "640d332af35af7f454475cb671d92c715ebebf52",
+  "source_commit": "bb3b3da80ee97a32db277384c763b58106ec31dc",
   "selection_ready": false,
   "mandatory_knowledge": [
     "knowledge-liz",
@@ -107,8 +107,8 @@
       "path": "Персонажи.md",
       "kind": "character",
       "scope": "mixed-author",
-      "blob_sha": "51bc1566e23dbbfbd0dd8ff0d0bae1ca54db1295",
-      "bytes": 114110,
+      "blob_sha": "2e5594de7322b6c23de2334eb908716d62968f47",
+      "bytes": 114920,
       "pointer": "characters.json"
     },
     {
@@ -125,8 +125,8 @@
       "path": "Развитие отношений Лизы и Паскаля.md",
       "kind": "relation",
       "scope": "mixed-author",
-      "blob_sha": "765963f3c819370baae310ecc19f3e5a0393878a",
-      "bytes": 31198,
+      "blob_sha": "2c4fd3bd300ec9fffd53ec4c678be6f07b1e19f9",
+      "bytes": 31733,
       "pointer": "relations.json"
     },
     {
@@ -134,8 +134,8 @@
       "path": "Мир.md",
       "kind": "world",
       "scope": "author",
-      "blob_sha": "259bedb50acb677f05a9dda9b25c7927dddcd847",
-      "bytes": 84563,
+      "blob_sha": "9fe7a59a1ee866b035cc758386525c784b589b04",
+      "bytes": 84372,
       "pointer": "world.json"
     },
     {
@@ -143,8 +143,8 @@
       "path": "План лора.md",
       "kind": "plan",
       "scope": "mixed-author",
-      "blob_sha": "61a00c185ccae8ae449ccafb5dac1f8f22d1e875",
-      "bytes": 62112,
+      "blob_sha": "95e1ca84a1337c61d0400b5217b9362807faa243",
+      "bytes": 62522,
       "pointer": "lore-plan.json"
     },
     {
@@ -153,8 +153,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "liz",
-      "blob_sha": "c8a0330cf1045147648c07a65b5f9e5cd3186570",
-      "bytes": 52392,
+      "blob_sha": "e1c55f075d410da82f59d1c839f43194a76b978e",
+      "bytes": 52310,
       "pointer": "knowledge-liz.json"
     },
     {
@@ -163,8 +163,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "pascal",
-      "blob_sha": "10adb6dbeab2b60df8e4fb9bf983c127ce3085cd",
-      "bytes": 40553,
+      "blob_sha": "48366b27d869d601a576f74bffb0aea07ac916e9",
+      "bytes": 40936,
       "pointer": "knowledge-pascal.json"
     },
     {
@@ -173,8 +173,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "rainor",
-      "blob_sha": "10542e47eb1cbd1f6440c483d3bae14bc02e8cd5",
-      "bytes": 39055,
+      "blob_sha": "e63bcb4414c02c832c44ea1c3c13d2e233d5fba7",
+      "bytes": 39228,
       "pointer": "knowledge-rainor.json"
     },
     {
@@ -183,8 +183,8 @@
       "kind": "knowledge",
       "scope": "mixed-author",
       "holder": "reader",
-      "blob_sha": "481f0b2da8a6c809be58020e78375e8728423db0",
-      "bytes": 59547,
+      "blob_sha": "4ae101b8540071a9e3bfe278768cd8390bf7132c",
+      "bytes": 59701,
       "pointer": "knowledge-reader.json"
     },
     {
@@ -192,8 +192,8 @@
       "path": "События по главам.md",
       "kind": "event",
       "scope": "mixed-author",
-      "blob_sha": "54f2284eb2be0a6e3d5dacf31f644405e7230852",
-      "bytes": 29349,
+      "blob_sha": "b68e11d57da845d41692c4f44454421aad55f30f",
+      "bytes": 29457,
       "pointer": "events.json"
     },
     {
@@ -201,8 +201,8 @@
       "path": "Хронология.md",
       "kind": "event",
       "scope": "mixed-author",
-      "blob_sha": "76c3395a7205734e4cea28f7fc02b56c440abd04",
-      "bytes": 25611,
+      "blob_sha": "7c9b1a165bc083aa2a8ebedfa4f1b8c0c23ba5d3",
+      "bytes": 25776,
       "pointer": "chronology.json"
     },
     {
@@ -237,8 +237,8 @@
       "path": "План главы 8.md",
       "kind": "plan",
       "scope": "planning",
-      "blob_sha": "ce1986894b4304a1c74e99d0ce04d8284b88c1c0",
-      "bytes": 19602,
+      "blob_sha": "49f3bad31986cf4fb2be03e97470aa1ac1d6c1e1",
+      "bytes": 20123,
       "pointer": "plan-8.json"
     },
     {
@@ -246,8 +246,8 @@
       "path": "План главы 9.md",
       "kind": "plan",
       "scope": "planning",
-      "blob_sha": "356f36c692ac147d8ce49c17b437c50efed0d866",
-      "bytes": 32775,
+      "blob_sha": "87aaca8374dde6aeeace8bc5024d66b5328985e8",
+      "bytes": 33254,
       "pointer": "plan-9.json"
     },
     {
